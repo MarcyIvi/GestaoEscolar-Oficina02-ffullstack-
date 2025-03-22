@@ -1,0 +1,193 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00242c;
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #002737;
+  }
+  
+  table thead {
+    background-color: #017aaa;
+    color: #fff;
+  }
+  
+  table, th, td {
+    border: 3px solid #00000071;
+  }
+  
+  table th,
+  table td {
+    padding: 12px 15px;
+    text-align: center;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #025779;
+  }
+  
+  button {
+    background-color: #035ab7c7;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #027384;
+  }
+  
+  form {
+    display: inline;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+.menu-navegacao {
+  text-align: center;
+    background-color: #017aaa;
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  box-shadow: 0 4px 6px rgba(1, 38, 83, 0.1); 
+  margin-bottom: 20px; 
+}
+
+
+.menu-navegacao a {
+  color: #ecf0f1; 
+  text-decoration: none; 
+  font-size: 16px;
+  margin: 0 10px; 
+  padding: 5px 10px; 
+  border-radius: 3px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+
+.menu-navegacao a:hover {
+  background-color: #00548d; /* Cor de fundo ao passar o mouse */
+  color: #ffffff; /* Cor do texto ao passar o mouse */
+}
+
+
+.menu-navegacao a.active {
+  background-color: #3498db; /* Cor de fundo para o link ativo */
+  color: #ffffff; /* Cor do texto para o link ativo */
+}
+
+/* Estilo para o contêiner do formulário */
+.form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título */
+.form-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Estilo para o formulário de associação */
+.form-associacao {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os labels */
+.form-associacao label {
+  display: block;
+  font-size: 16px;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+/* Estilo para os selects */
+.form-associacao select {
+  width: calc(100% - 20px); /* Ajusta a largura para considerar o padding */
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+/* Efeito ao focar nos selects */
+.form-associacao select:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Estilo para o botão de associar */
+.form-associacao button {
+  width: calc(100% - 20px); /* Ajusta a largura para considerar o padding */
+  padding: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 0; /* Adiciona espaçamento acima e abaixo do botão */
+}
+
+/* Efeito ao passar o mouse no botão de associar */
+.form-associacao button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo para o botão de voltar */
+.btn-voltar {
+  width: calc(100% - 20px); /* Ajusta a largura para considerar o padding */
+  padding: 10px;
+  font-size: 16px;
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 0; /* Adiciona espaçamento acima e abaixo do botão */
+}
+
+/* Efeito ao passar o mouse no botão de voltar */
+.btn-voltar:hover {
+  background-color: #d5d8dc;
+}
